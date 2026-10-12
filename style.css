@@ -1,0 +1,14 @@
+/* 
+  OPEN COURT - Roberto L. - WADE 1000L 2026
+  style.css - Requisitos #5, #7, #8, #14
+*/
+:root{--ponce-red:#C8102E;--bg-main:#080808;--bg-card:#141414;--bg-footer:#050505;}
+body{background:var(--bg-main);color:#fff;font-family:system-ui, sans-serif;}
+.header{border-bottom:2px solid var(--ponce-red);background:#000;}
+.nav-link{color:#aaa!important;font-size:.8rem;letter-spacing:.15em;cursor:pointer;transition:color .2s ease;}
+.nav-link.active{color:#fff!important;border-bottom:2px solid var(--ponce-red);}
+.carousel-img{height:70vh;object-fit:cover;}
+.gear-card{background:var(--bg-card);border:1px solid #222;transition:.3s ease;cursor:pointer;}
+.gear-card:hover{transform:scale(1.03);box-shadow:0 10px 30px rgba(200,16,46,.4);border-color:var(--ponce-red);}
+footer{background:var(--bg-footer);border-top:1px solid #222;}
+@media(max-width:768px){.carousel-img{height:45vh;} h1{font-size:1.5rem;}}
